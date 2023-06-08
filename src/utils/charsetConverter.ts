@@ -9,7 +9,7 @@ const codecTypes = [
 
 const checkShiftJis = (codec: string) => {
   if(codec.match(/^(windows|Shift_JIS).*/)) {
-    return 'SJIS'
+    return 'Shift_JIS'
   } else {
     return codec
   }
